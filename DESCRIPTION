@@ -1,0 +1,17 @@
+Package: entity
+Title: Named Entity Recognition
+Version: 0.0.1
+Authors@R: c(person("Tyler", "Rinker", email =
+        "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Description: A wrapper to simplify and extend 'NLP' and 'openNLP' named
+        entity recognition.
+Depends: R (>= 3.2.2)
+Imports: dplyr, ggplot2, NLP, openNLP, utils
+Suggests: testthat
+Date: 2015-10-27
+License: GPL-2
+LazyData: TRUE
+Roxygen: list(wrap = FALSE)
+Collate: 'annotators.R' 'entity-package.R' 'get_counts.R'
+        'named_entity.R' 'utils.R' 'person_entity.R'
