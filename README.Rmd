@@ -30,7 +30,7 @@ knitr::opts_knit$set(self.contained = TRUE, cache = FALSE)
 knitr::opts_chunk$set(fig.path = "inst/figure/")
 ```
 
-<img src="inst/entity_logo/r_entity.png" width="150" alt="readability Logo">  
+<img src="inst/entity_logo/r_entity.png" width="250" alt="readability Logo">  
 
 
 **entity** is wrapper to simplify and extend [**NLP**](https://cran.r-project.org/web/packages/NLP/index.html) and [**openNLP**](https://cran.r-project.org/web/packages/openNLP/index.html) named entity recognition.  The package contains 6 entity extractors that take a text vector and return a list of vectors of named entities.  The entity extractors include:
