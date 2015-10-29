@@ -34,6 +34,12 @@ Table of Contents
 -   [Examples](#examples)
     -   [Load the Package/Data](#load-the-packagedata)
     -   [Entity Extractors](#entity-extractors)
+        -   [Person Entities](#person-entities)
+        -   [Location Entities](#location-entities)
+        -   [Organization Entities](#organization-entities)
+        -   [Entities](#entities)
+        -   [Money Entities](#money-entities)
+        -   [Percent Entities](#percent-entities)
     -   [Plotting](#plotting)
 
 Installation
@@ -86,6 +92,8 @@ excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs.
 Entity Extractors
 -----------------
 
+### Person Entities
+
     person_entity(wiki)
 
     ## [[1]]
@@ -109,6 +117,8 @@ Entity Extractors
     ## [[7]]
     ## NULL
 
+### Location Entities
+
     location_entity(wiki)
 
     ## [[1]]
@@ -131,6 +141,8 @@ Entity Extractors
     ## 
     ## [[7]]
     ## NULL
+
+### Organization Entities
 
     organization_entity(wiki)
 
@@ -159,6 +171,8 @@ Entity Extractors
     ## [[7]]
     ## NULL
 
+### Entities
+
     date_entity(wiki)
 
     ## [[1]]
@@ -182,6 +196,8 @@ Entity Extractors
     ## [[7]]
     ## NULL
 
+### Money Entities
+
     money_entity(wiki)
 
     ## [[1]]
@@ -204,6 +220,8 @@ Entity Extractors
     ## 
     ## [[7]]
     ## [1] "2 cents"
+
+### Percent Entities
 
     percent_entity(wiki)
 
@@ -234,4 +252,4 @@ Plotting
     organizations <- organization_entity(presidential_debates_2012$dialogue)
     plot(organizations)
 
-![](inst/figure/unnamed-chunk-6-1.png)
+![](inst/figure/unnamed-chunk-11-1.png)

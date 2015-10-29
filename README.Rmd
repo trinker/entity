@@ -82,19 +82,46 @@ wiki <- c("Bell Laboratories (also known as Bell Labs and formerly known as AT&T
 
 ## Entity Extractors
 
+### Person Entities
+
 ```{r}
 person_entity(wiki)
+```
+
+### Location Entities
+
+```{r}
 location_entity(wiki)
+```
+
+### Organization Entities
+
+```{r}
 organization_entity(wiki)
+```
+
+### Entities
+
+```{r}
 date_entity(wiki)
+```
+
+### Money Entities
+
+```{r}
 money_entity(wiki)
+```
+
+### Percent Entities
+
+```{r}
 percent_entity(wiki)
 ```
 
 
 ## Plotting
 
-```{r, fig.height = 9}
+```{r, fig.height = 8}
 organizations <- organization_entity(presidential_debates_2012$dialogue)
 plot(organizations)
 ```
