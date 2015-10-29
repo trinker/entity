@@ -119,3 +119,17 @@ percent_entity(wiki)
 organizations <- organization_entity(presidential_debates_2012$dialogue)
 plot(organizations)
 ```
+
+You can include only entities above a minimum frequency (`min = n`) as shown below:
+
+```{r, fig.height}
+plot(organizations, min = 2)
+```
+
+The user may wish to view the entities alphabetically rather than by frequency.  Use `alphabetical = TRUE` to accomplish this:
+
+```{r, fig.height = 7}
+plot(organizations, alphabetical = TRUE)
+```
+
+

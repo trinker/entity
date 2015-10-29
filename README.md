@@ -256,3 +256,17 @@ Plotting
     plot(organizations)
 
 ![](inst/figure/unnamed-chunk-11-1.png)
+
+You can include only entities above a minimum frequency (`min = n`) as
+shown below:
+
+    plot(organizations, min = 2)
+
+![](inst/figure/fig.height-1.png)
+
+The user may wish to view the entities alphabetically rather than by
+frequency. Use `alphabetical = TRUE` to accomplish this:
+
+    plot(organizations, alphabetical = TRUE)
+
+![](inst/figure/unnamed-chunk-12-1.png)
