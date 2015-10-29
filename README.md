@@ -79,7 +79,7 @@ Load the Package/Data
 
 I will demonstrate the 6 annotators on this [Wikipedia
 excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs (plus
-one non Wikipedia line at he end).
+one non Wikipedia line at the end).
 
     wiki <- c("Bell Laboratories (also known as Bell Labs and formerly known as AT&T Bell Laboratories and Bell Telephone Laboratories) is a research and scientific development company that belongs to Alcatel-Lucent.", 
         "Its headquarters are located in Murray Hill, New Jersey, in addition to other laboratories around the rest of the United States and in other countries.", 

@@ -67,7 +67,7 @@ The following examples demonstrate some of the functionality of **termco**.
 library(entity)
 ```
 
-I will demonstrate the 6 annotators on this [Wikipedia excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs (plus one non Wikipedia line at he end).
+I will demonstrate the 6 annotators on this [Wikipedia excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs (plus one non Wikipedia line at the end).
 
 ```{r}
 wiki <- c("Bell Laboratories (also known as Bell Labs and formerly known as AT&T Bell Laboratories and Bell Telephone Laboratories) is a research and scientific development company that belongs to Alcatel-Lucent.", 
