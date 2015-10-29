@@ -78,7 +78,8 @@ Load the Package/Data
     library(entity)
 
 I will demonstrate the 6 annotators on this [Wikipedia
-excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs.
+excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs (plus
+one non Wikipedia line at he end).
 
     wiki <- c("Bell Laboratories (also known as Bell Labs and formerly known as AT&T Bell Laboratories and Bell Telephone Laboratories) is a research and scientific development company that belongs to Alcatel-Lucent.", 
         "Its headquarters are located in Murray Hill, New Jersey, in addition to other laboratories around the rest of the United States and in other countries.", 
@@ -86,7 +87,7 @@ excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs.
         "Bell Labs was also at one time a division of the American Telephone & Telegraph Company (AT&T Corporation), half-owned through its Western Electric manufacturing subsidiary.", 
         "Researchers working at Bell Labs are credited with the development of radio astronomy, the transistor, the laser, the charge-coupled device (CCD), information theory, the UNIX operating system, the C programming language, S programming language and the C++ programming language.", 
         "Eight Nobel Prizes have been awarded for work completed at Bell Laboratories.",
-        "And an extray line not from wiki worth 2 cents or .001% of 1 percent."
+        "And an extra line not from Wikipedia worth 2 cents or .001% of 1 percent."
     )
 
 Entity Extractors
