@@ -11,6 +11,8 @@ Status](https://travis-ci.org/trinker/entity.svg?branch=master)](https://travis-
 Status](https://coveralls.io/repos/trinker/entity/badge.svg?branch=master)](https://coveralls.io/r/trinker/entity?branch=master)
 <a href="https://img.shields.io/badge/Version-0.0.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.0.1-orange.svg" alt="Version"/></a>
 </p>
+<img src="inst/entity_logo/r_entity.png" width="100" alt="readability Logo">
+
 **entity** is wrapper to simplify and extend
 [**NLP**](https://cran.r-project.org/web/packages/NLP/index.html) and
 [**openNLP**](https://cran.r-project.org/web/packages/openNLP/index.html)
