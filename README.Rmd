@@ -121,7 +121,7 @@ percent_entity(wiki)
 
 ## Plotting
 
-```{r, fig.height = 8}
+```{r, fig.height = 7}
 organizations <- organization_entity(presidential_debates_2012$dialogue)
 plot(organizations)
 ```
