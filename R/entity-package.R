@@ -26,3 +26,18 @@ NULL
 #' @usage data(presidential_debates_2012)
 #' @format A data frame with 2912 rows and 4 variables
 NULL
+
+
+#' Bell Labs Wikipedia Article
+#'
+#' A dataset containing a character vector of an excerpt from Wikipedia about
+#' Bell Labs with an extra final sentence to include percent and money when
+#' extracting entities.
+#'
+#' @docType data
+#' @keywords datasets
+#' @name wiki
+#' @usage data(wiki)
+#' @format A character vector with 7 elements
+#' @references \url{https://en.wikipedia.org/wiki/Bell_Labs}
+NULL

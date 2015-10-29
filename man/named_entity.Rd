@@ -34,6 +34,7 @@ data(presidential_debates_2012)
 
 peoples <- named_entity(presidential_debates_2012$dialogue, 'person_annotator')
 unlist(peoples)
+plot(peoples)
 
 orgs <-named_entity(presidential_debates_2012$dialogue, 'organization_annotator')
 unlist(orgs)

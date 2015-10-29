@@ -15,7 +15,7 @@ Status](https://coveralls.io/repos/trinker/entity/badge.svg?branch=master)](http
 [**NLP**](https://cran.r-project.org/web/packages/NLP/index.html) and
 [**openNLP**](https://cran.r-project.org/web/packages/openNLP/index.html)
 named entity recognition. The package contains 6 entity extractors that
-take a text vector and return a lest of vectors of named entities. The
+take a text vector and return a list of vectors of named entities. The
 entity extractors include:
 
 1.  `person_entity`
@@ -81,14 +81,16 @@ I will demonstrate the 6 annotators on this [Wikipedia
 excerpt](https://en.wikipedia.org/wiki/Bell_Labs) about Bell Labs (plus
 one non Wikipedia line at the end).
 
-    wiki <- c("Bell Laboratories (also known as Bell Labs and formerly known as AT&T Bell Laboratories and Bell Telephone Laboratories) is a research and scientific development company that belongs to Alcatel-Lucent.", 
-        "Its headquarters are located in Murray Hill, New Jersey, in addition to other laboratories around the rest of the United States and in other countries.", 
-        "The historic laboratory originated in the late 19th century as the Volta Laboratory and Bureau created by Alexander Graham Bell.", 
-        "Bell Labs was also at one time a division of the American Telephone & Telegraph Company (AT&T Corporation), half-owned through its Western Electric manufacturing subsidiary.", 
-        "Researchers working at Bell Labs are credited with the development of radio astronomy, the transistor, the laser, the charge-coupled device (CCD), information theory, the UNIX operating system, the C programming language, S programming language and the C++ programming language.", 
-        "Eight Nobel Prizes have been awarded for work completed at Bell Laboratories.",
-        "And an extra line not from Wikipedia worth 2 cents or .001% of 1 percent."
-    )
+    data(wiki)
+    wiki
+
+    ## [1] "Bell Laboratories (also known as Bell Labs and formerly known as AT&T Bell Laboratories and Bell Telephone Laboratories) is a research and scientific development company that belongs to Alcatel-Lucent."                                                                             
+    ## [2] "Its headquarters are located in Murray Hill, New Jersey, in addition to other laboratories around the rest of the United States and in other countries."                                                                                                                               
+    ## [3] "The historic laboratory originated in the late 19th century as the Volta Laboratory and Bureau created by Alexander Graham Bell."                                                                                                                                                      
+    ## [4] "Bell Labs was also at one time a division of the American Telephone & Telegraph Company (AT&T Corporation), half-owned through its Western Electric manufacturing subsidiary."                                                                                                         
+    ## [5] "Researchers working at Bell Labs are credited with the development of radio astronomy, the transistor, the laser, the charge-coupled device (CCD), information theory, the UNIX operating system, the C programming language, S programming language and the C++ programming language."
+    ## [6] "Eight Nobel Prizes have been awarded for work completed at Bell Laboratories."                                                                                                                                                                                                         
+    ## [7] "And an extra line not from Wikipedia worth 2 cents or .001% of 1 percent."
 
 Entity Extractors
 -----------------

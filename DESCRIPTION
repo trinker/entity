@@ -9,7 +9,7 @@ Description: A wrapper to simplify and extend 'NLP' and 'openNLP' named
 Depends: R (>= 3.2.2)
 Imports: dplyr, ggplot2, NLP, openNLP, utils
 Suggests: testthat
-Date: 2015-10-28
+Date: 2015-10-29
 License: GPL-2
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
