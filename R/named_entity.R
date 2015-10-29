@@ -58,6 +58,7 @@ named_entity <- function(text.var, entity.annotator, word.annotator = word_annot
     entity.annotator <- switch(entity.annotator,
         person_annotator = person_annotator(),
         location_annotator = location_annotator(),
+        organization_annotator = organization_annotator(),
         date_annotator = date_annotator(),
         money_annotator = money_annotator(),
         percent_annotator  = percent_annotator(),

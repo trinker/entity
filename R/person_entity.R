@@ -1,6 +1,6 @@
 #' Named Person Recognition
 #'
-#' A wrapper for \pkg{NLP},/\pkg{openNLP}'s named person recogniton annotation.
+#' A wrapper for \pkg{NLP},/\pkg{openNLP}'s named person recognition annotation.
 #'
 #' @inheritParams named_entity
 #' @return Returns a data.frame of named entities and frequencies.
@@ -21,7 +21,7 @@
 #' presidential_debates_2012 %>%
 #'     {.[!sapply(.$persons, is.null), ]} %>%
 #'     rowwise() %>%
-#'     mutate(persons = paste(organizations, collapse=", ")) %>%
+#'     mutate(persons = paste(persons, collapse=", ")) %>%
 #'     select(person, time, persons)
 #'
 #' library(tidyr)

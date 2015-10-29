@@ -5,13 +5,30 @@ Authors@R: c(person("Tyler", "Rinker", email =
         "tyler.rinker@gmail.com", role = c("aut", "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A wrapper to simplify and extend 'NLP' and 'openNLP' named
-        entity recognition.
-Depends: R (>= 3.2.2)
-Imports: dplyr, ggplot2, NLP, openNLP, utils
-Suggests: testthat
+    entity recognition.
+Depends:
+    R (>= 3.2.2)
+Imports:
+    dplyr,
+    ggplot2,
+    NLP,
+    openNLP,
+    utils
+Suggests:
+    testthat
 Date: 2015-10-27
 License: GPL-2
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
-Collate: 'annotators.R' 'entity-package.R' 'get_counts.R'
-        'named_entity.R' 'utils.R' 'person_entity.R'
+Collate:
+    'annotators.R'
+    'utils.R'
+    'named_entity.R'
+    'date_entity.R'
+    'entity-package.R'
+    'get_counts.R'
+    'location_entity.R'
+    'money_entity.R'
+    'organization_entity.R'
+    'percent_entity.R'
+    'person_entity.R'
