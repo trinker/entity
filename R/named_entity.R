@@ -1,10 +1,10 @@
 #' Named Entity Recognition
 #'
-#' A wrapper for \pkg{NLP},/\pkg{openNLP}'s named entity recogniton annotation
+#' A wrapper for \pkg{NLP},/\pkg{openNLP}'s named entity recognition annotation
 #' tools.
 #'
 #' @param text.var The text string variable.
-#' @param entity.annotator An character vector identifying an entity recognition
+#' @param entity.annotator A character vector identifying an entity recognition
 #' annotator (\code{c("person_annotator", "location_annotator", "date_annotator",
 #' "money_annotator", "percent_annotator")}.  See \code{?annotators}.
 #' @param word.annotator A word annotator.

@@ -1,4 +1,4 @@
-entity
+entity   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
 ============
 
 
@@ -11,7 +11,8 @@ Status](https://travis-ci.org/trinker/entity.svg?branch=master)](https://travis-
 Status](https://coveralls.io/repos/trinker/entity/badge.svg?branch=master)](https://coveralls.io/r/trinker/entity?branch=master)
 <a href="https://img.shields.io/badge/Version-0.1.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.0-orange.svg" alt="Version"/></a>
 </p>
-<img src="inst/entity_logo/r_entity.png" width="250" alt="readability Logo">
+
+![](tools/entity_logo/r_entity.png)
 
 **entity** is wrapper to simplify and extend
 [**NLP**](https://cran.r-project.org/web/packages/NLP/index.html) and
@@ -62,11 +63,10 @@ development version:
 Contact
 =======
 
-You are welcome to: 
-* submit suggestions and bug-reports at: <https://github.com/trinker/entity/issues> 
-* send a pull request on: <https://github.com/trinker/entity/> 
-* compose a friendly e-mail to: <tyler.rinker@gmail.com>
-
+You are welcome to:    
+- submit suggestions and bug-reports at: <https://github.com/trinker/entity/issues>    
+- send a pull request on: <https://github.com/trinker/entity/>    
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
 
 Examples
 ========
@@ -257,7 +257,7 @@ Plotting
     organizations <- organization_entity(presidential_debates_2012$dialogue)
     plot(organizations)
 
-![](inst/figure/unnamed-chunk-11-1.png)
+![](inst/figure/unnamed-chunk-14-1.png)
 
 You can include only entities above a minimum frequency (`min = n`) as
 shown below:
@@ -271,4 +271,4 @@ frequency. Use `alphabetical = TRUE` to accomplish this:
 
     plot(organizations, alphabetical = TRUE)
 
-![](inst/figure/unnamed-chunk-12-1.png)
+![](inst/figure/unnamed-chunk-15-1.png)

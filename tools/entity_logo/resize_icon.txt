@@ -1,0 +1,2 @@
+cd C:\Users\Tyler\GitHub\entity\tools\entity_logo
+ffmpeg -i r_entitya.png -vf scale=250:-1 r_entity.png

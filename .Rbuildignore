@@ -14,8 +14,10 @@ inst/build.R
 README.Rmd
 README.R
 travis.yml
-inst/entity_logo
 inst/staticdocs
 inst/extra_statdoc
 inst/maintenance.R
-
+tools/entity_logo/r_entitya.png
+tools/entity_logo/r_entity.pptx
+tools/entity_logo/resize_icon.txt
+Thumbs.db
