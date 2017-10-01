@@ -39,8 +39,8 @@ Table of Contents
     -   [Entity Extractors](#entity-extractors)
         -   [Person Entities](#person-entities)
         -   [Location Entities](#location-entities)
-        -   [Organization Entities](#organization-entities)
-        -   [Entities](#entities)
+        -   [Organization Entities](#organization-entities)
+        -   [Date Entities](#date-entities)
         -   [Money Entities](#money-entities)
         -   [Percent Entities](#percent-entities)
     -   [Plotting](#plotting)
@@ -176,7 +176,7 @@ Entity Extractors
     ## [[7]]
     ## NULL
 
-### Entities
+### Date Entities
 
     date_entity(wiki)
 
