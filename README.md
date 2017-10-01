@@ -38,12 +38,12 @@ Table of Contents
     -   [Load the Package/Data](#load-the-packagedata)
     -   [Entity Extractors](#entity-extractors)
         -   [Person Entities](#person-entities)
-        -   [Location Entities](#location-entities)
+        -   [Location Entities](#location-entities)    
         -   [Organization Entities](#organization-entities)
-        -   [Date Entities](#date-entities)
-        -   [Money Entities](#money-entities)
-        -   [Percent Entities](#percent-entities)
-    -   [Plotting](#plotting)
+        -   [Date Entities](#date-entities)     
+        -   [Money Entities](#money-entities)     
+        -   [Percent Entities](#percent-entities)     
+    -       [Plotting](#plotting)
 
 Installation
 ============
