@@ -97,7 +97,7 @@ location_entity(wiki)
 organization_entity(wiki)
 ```
 
-### Entities
+### Date Entities
 
 ```{r}
 date_entity(wiki)
